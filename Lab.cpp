@@ -7,11 +7,11 @@ using namespace std;
 int main()
 
 {
-    int a, b, c;
+    int z, b, c;
     cout << "/Enter a,b,c" << endl;
-    cin >> a >> b >> c;
-    cout << boolalpha << (a < b) || (b < c) || (c > a);
-    bool r = ((a < b) || (b < c) || (c > a)) ? true : false;
+    cin >> z >> b >> c;
+    cout << boolalpha << (z < b) || (b < c) || (c > z);
+    bool r = ((z < b) || (b < c) || (c > z)) ? true : false;
     cout << boolalpha << r << endl;
 }
 
